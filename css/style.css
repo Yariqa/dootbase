@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover, button, button:hover{
+    text-decoration: none;
+    transition: linear .2s;
+}
+.btn-theme{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-weight: 600;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #B01016;
+    text-transform: uppercase;
+}
+.btn-theme:hover{
+    background-color: #910005;
+}
+
+.top-nav {
+    background-color: #B11016;
+    overflow: hidden;
+}
+
+.nav-left {
+    float: left;
+    padding: 15px 0;
+}
+
+.nav-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-left ul li {
+    display: inline-flex;
+    margin-right: 35px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.nav-left ul li a {
+    color: #fff;
+}
+
+.nav-left ul li i {
+    margin-right: 10px;
+}
+
+.nav-right {
+    float: right;
+    padding: 15px 0;
+}
+
+.nav-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav-right ul li {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.nav-right ul li a {
+    color: #fff;
+}
+
+.nav-right ul li a i {}
+
+header {
+    padding: 15px 0;
+    box-shadow: 0 0 15px #0000001f;
+}
+
+.navbar-brand {}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.home-banner-sec {
+    padding: 150px 0;
+}
+
+.banner-content {}
+
+.banner-content h5 {
+    color: #666666;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.banner-content h1 span {
+    color: #000;
+    font-weight: 600;
+}
+
+.banner-content p {
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+.banner-content a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-weight: 600;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #B01016;
+    text-transform: uppercase;
+}
+
+.appointment-sec {}
+
+.appointment-content {}
+
+.appointment-content h2 {}
+
+.appointment-content p {}
+
+.about-sec {}
+
+.about-img {}
+
+.about-img img {}
+
+.service-sec {}
+
+.sec-title {}
+
+.sec-title h2 {}
+
+.sec-title h3 {}
+
+.service-card {}
+
+.service-card icon {}
+
+.service-card icon img {}
+
+.service-card h3 {}
+
+.service-card p {}
+
+.project-sec {}
+
+.project-gallery {}
+
+.project-item {}
+
+.project-item img {}
+
+.testimonial-slider {}
+
+.item {}
+
+.item p {}
+
+.item article {}
+
+.partner-sec {}
+
+.contact-sec {}
+
+.team-sec {}
+
+.teammate {}
+
+.teammate img {}
+
+.teammate a {}
+
+.teammate h5 {}
+
+.teammate-social {}
+
+.teammate-social ul {}
+
+.teammate-social ul li {}
+
+.teammate-social ul li a {}
+
+.footer-element {}
+
+.footer-element h3 {}
+
+.footer-element p {}
+
+.footer-element form {}
+
+.footer-element input {}
+
+.footer-element button {}
+
+.copyright {}
