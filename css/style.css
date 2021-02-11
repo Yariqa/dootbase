@@ -9,6 +9,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 a,
 a:hover,
 button,
@@ -616,7 +620,7 @@ header {
 }
 
 .footer-sec {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .footer-element {
