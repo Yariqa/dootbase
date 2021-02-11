@@ -56,7 +56,6 @@
 
 <body>
 
-
     <div class="top-nav">
         <div class="container">
             <div class="nav-left">
@@ -79,34 +78,33 @@
         </div>
     </div>
 
-
+    <!-- header fixed -->
+    <header uk-sticky>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg px-0">
+                <a class="navbar-brand" href="index.html"><img src="image/dotbes-logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
 
     <!-- home banner section start from here -->
     <section class="home-banner-sec">
-        <!-- header fixed -->
-        <header uk-sticky="">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg px-0">
-                    <a class="navbar-brand" href="index.html"><img src="image/dotbes-logo.svg" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- header end -->
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -134,12 +132,15 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-5">
-                    <a href="tel:+8801798366057">01798366057</a>
+                    <div class="text-right">
+                        <a href="tel:+8801798366057">01798366057</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- about section start from here -->
     <section class="about-sec">
         <div class="container">
             <div class="row">
@@ -148,25 +149,26 @@
                         <img src="" alt="">
                     </div>
                 </div>
-                <div class="co
-                l-md-6">
-                    <h5>ABOUT CONSULTE</h5>
-                    <h3>Leading Financial
-                        Consulting Company</h3>
-                    <p>Consulte is located in the former rectory of St. Peter’s Episcopal Church. Over our 14 year
-                        history, we have treated patients from over 114 different countries in the world. In 2010, we
-                        imposed geographical restrictions for the first time. Existing patients were not affected by
-                        this change, but new patients are now</p>
-
-
-                    <p>We have compiled an extensive list of other area clinics and health resources, so that when
-                        someone calls from outside of our geographical area.</p>
+                <div class="col-md-6">
+                    <div class="sec-title">
+                        <h2>ABOUT CONSULTE</h2>
+                        <h3>Leading <span>Financial Consulting</span> Company</h3>
+                    </div>
+                    <div class="about-content">
+                        <p>Consulte is located in the former rectory of St. Peter’s Episcopal Church. Over our 14 year
+                            history, we have treated patients from over 114 different countries in the world. In 2010,
+                            we imposed geographical restrictions for the first time. Existing patients were not affected
+                            by this change, but new patients are now</p>
+                        <p>We have compiled an extensive list of other area clinics and health resources, so that when
+                            someone calls from outside of our geographical area.</p>
+                    </div>
                 </div>
             </div>
-
         </div>
-
     </section>
+<!-- about section end -->
+
+    <!-- service section start from here -->
     <section class="service-sec">
         <div class="container">
             <div class="sec-title">
