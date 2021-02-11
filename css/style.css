@@ -2,13 +2,29 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-a, a:hover, button, button:hover{
+
+a,
+a:hover,
+button,
+button:hover {
     text-decoration: none;
     transition: linear .2s;
+    font-family: 'Work Sans', sans-serif;
 }
-.btn-theme{
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-theme {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -21,7 +37,8 @@ a, a:hover, button, button:hover{
     background-color: #B01016;
     text-transform: uppercase;
 }
-.btn-theme:hover{
+
+.btn-theme:hover {
     background-color: #910005;
 }
 
@@ -82,6 +99,16 @@ a, a:hover, button, button:hover{
 
 header {
     padding: 15px 0;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header.uk-sticky-fixed {
+    background-color: #fff;
     box-shadow: 0 0 15px #0000001f;
 }
 
@@ -92,7 +119,12 @@ header {
 }
 
 .home-banner-sec {
-    padding: 150px 0;
+    position: relative;
+    padding: 200px 0;
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .banner-content {}
@@ -211,7 +243,34 @@ header {
 
 .teammate-social ul li a {}
 
-.footer-element {}
+
+.footer-sec {}
+
+.footer-element {
+    margin: 120px 0;
+
+}
+
+.footer-logo {}
+
+.footer-logo a {}
+
+.footer-logo a img {
+    width: 120px;
+
+}
+
+.footer-contact h5 {
+    position: relative;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+
+.footer-contact a {}
 
 .footer-element h3 {}
 
@@ -223,4 +282,8 @@ header {
 
 .footer-element button {}
 
-.copyright {}
+.copyright {
+    position: relative;
+    padding: 35px 0;
+    border: 1px solid #e1e1e1
+}
