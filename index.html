@@ -90,12 +90,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
+                        <li class="nav-item active"><a class="nav-link" href="#Home" uk-scroll>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About" uk-scroll>About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Service" uk-scroll>Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Projects" uk-scroll>Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonial" uk-scroll>testimonial</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact" uk-scroll>Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Team" uk-scroll>Team</a></li>
                     </ul>
                 </div>
             </nav>
@@ -104,7 +105,7 @@
     <!-- header end -->
 
     <!-- home banner section start from here -->
-    <section class="home-banner-sec">
+    <section id="Home" class="home-banner-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -141,7 +142,7 @@
     </section>
 
     <!-- about section start from here -->
-    <section class="about-sec">
+    <section id="About" class="about-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -166,10 +167,10 @@
             </div>
         </div>
     </section>
-<!-- about section end -->
+    <!-- about section end -->
 
     <!-- service section start from here -->
-    <section class="service-sec">
+    <section id="Service" class="service-sec">
         <div class="container">
             <div class="sec-title">
                 <h2>OUR SERVICES</h2>
@@ -253,8 +254,8 @@
 
     </section>
 
-
-    <section class="project-sec">
+    <!-- project section start from here -->
+    <section id="Projects" class="project-sec">
         <div class="container">
             <div class="sec-title">
                 <h2>LATEST PROJECTS</h2>
@@ -267,28 +268,52 @@
                     <div class="row m-0">
                         <div class="col-md-6 p-1">
                             <div class="project-item">
-
                                 <img src="image/2.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h3><a href="#">Project Title</a></h3>
+                                        <h4 class="designation">Project Category</h4>
+                                        <a href="#" class="arrow ti-angle-right"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 p-1">
                             <div class="project-item">
-
                                 <img src="image/3.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h3><a href="#">Project Title</a></h3>
+                                        <h4 class="designation">Project Category</h4>
+                                        <a href="#" class="arrow ti-angle-right"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-12 p-1">
                             <div class="project-item">
-
                                 <img src="image/4.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h3><a href="#">Project Title</a></h3>
+                                        <h4 class="designation">Project Category</h4>
+                                        <a href="#" class="arrow ti-angle-right"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 p-1 ps-0">
                     <div class="project-item">
-
                         <img src="image/1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-inner">
+                                <h3><a href="#">Project Title</a></h3>
+                                <h4 class="designation">Project Category</h4>
+                                <a href="#" class="arrow ti-angle-right"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -296,34 +321,41 @@
 
         </div>
     </section>
+    <!-- project section end -->
 
 
-    <section class="project-item">
+    <!-- testimonial section start from here -->
+    <section id="testimonial" class="testimonial-sec">
         <div class="container">
-            <div class="sec-title">
+            <div class="sec-title" id="testimonialNav">
                 <h2>TESTIMONIALS</h2>
-                <h3>+2,500 Clients Love Us</h3>
+                <h3><span>+2,500 Clients</span> Love Us</h3>
             </div>
-
             <div class="testimonial-slider">
                 <div class="owl-carousel owl-theme testimonial-carousel">
                     <div class="item">
-                        <p>Ylmaz Mahin<span>Web Designer</span></p>
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
-                            veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
-                            tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        <div class="testimonial-item">
+                            <p>Ylmaz Mahin<span> / Web Designer</span></p>
+                            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
+                                veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
+                                tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        </div>
                     </div>
                     <div class="item">
-                        <p>Ylmaz Mahin<span>Web Designer</span></p>
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
-                            veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
-                            tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        <div class="testimonial-item">
+                            <p>Ylmaz Mahin<span> / Web Designer</span></p>
+                            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
+                                veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
+                                tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        </div>
                     </div>
                     <div class="item">
-                        <p>Ylmaz Mahin<span>Web Designer</span></p>
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
-                            veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
-                            tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        <div class="testimonial-item">
+                            <p>Ylmaz Mahin<span> / Web Designer</span></p>
+                            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum nihil
+                                veritatis fugit culpa deserunt itaque dolores beatae inventore mollitia temporibus cum
+                                tempore cupiditate at, odit repellat quidem ut voluptatibus.</article>
+                        </div>
                     </div>
 
                 </div>
@@ -333,8 +365,10 @@
         </div>
 
     </section>
+    <!-- testimonial section end -->
 
-    <section class="partner-sec">
+
+    <!-- <section class="partner-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -358,15 +392,15 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
 
-
-    <section class="contact-sec">
+    <!-- contact section start from here -->
+    <section id="Contact" class="contact-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="contact-form pr-5">
+                <div class="col-md-5">
+                    <div class="contact-form">
                         <h3>FREE CONSULATION</h3>
                         <form action="#">
                             <p>
@@ -398,12 +432,13 @@
 
                     </div>
                 </div>
-                <div class="col-md-6  col-md-offset-1">
+                <div class="col-md-5 offset-md-1">
                     <div class="contact-info">
                         <div class="sec-title">
                             <h2>WHY CHOOSE US</h2>
-                            <p><span>Your Successful</span> Is
-                                Our Reputation</p>
+                            <h3><span>Your Successful</span> Is Our Reputation</h3>
+                        </div>
+                        <div class="choosen">
                             <h3>Strong Martket Analysis</h3>
                             <p>Tasks, docs, and files integrate with Arado’s chat to close the
                                 gaps between feedback and action.</p>
@@ -422,13 +457,14 @@
         </div>
 
     </section>
+    <!-- contact section end -->
 
     <!-- team-sec start from here -->
-    <section class="team-sec">
+    <section id="Team" class="team-sec">
         <div class="container">
             <div class="sec-title">
                 <h2>OUR SERVICES</h2>
-                <h3>We Are Friendly & Profressional</h3>
+                <h3>We Are <span>Friendly & Profressional</span></h3>
             </div>
             <div class="row">
                 <div class="col-md-4">
