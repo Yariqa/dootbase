@@ -9,7 +9,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -220,6 +221,11 @@ header {
 .appointment-sec {
     position: relative;
     padding: 75px 0px 60px;
+    background-image: url(../image/appoitment-bg-pattren.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #B11016;
 }
 
 .appointment-content {}
@@ -229,6 +235,7 @@ header {
     line-height: 1;
     font-weight: 400;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 .appointment-content p {
@@ -236,6 +243,7 @@ header {
     line-height: 1.5;
     margin-top: 0;
     margin-bottom: 16px;
+    color: #fff;
 }
 
 .appointment-sec a {
@@ -243,7 +251,7 @@ header {
     line-height: 1;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #333;
+    color: #fff;
 }
 
 .about-sec {
@@ -271,9 +279,13 @@ header {
     margin-bottom: 20px;
 }
 
-.about-img {}
+.about-img {
+    padding-right: 50px;
+}
 
-.about-img img {}
+.about-img img {
+    width: 100%;
+}
 
 .service-sec {
     padding: 100px 0px 80px;
@@ -292,7 +304,6 @@ header {
 }
 
 .service-card {
-
     padding: 45px 25px 45px 35px;
     border-top: 4px solid transparent;
     transition: all 500ms ease 0s;
@@ -303,13 +314,39 @@ header {
     border-top-color: #910005;
 }
 
-.service-card .icon {}
+.service-card .icon {
+    line-height: 1;
+    font-size: 46px;
+    color: #B11016;
+    display: inline-block;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
 
-.service-card .icon img {}
+.service-card .icon span {}
 
-.service-card h3 {}
+.service-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: linear .2s;
+}
 
-.service-card p {}
+.service-card:hover h3 {
+    color: #B11016;
+    transition: linear .2s;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
 
 .project-sec {
     overflow: hidden;
@@ -546,13 +583,20 @@ header {
 .teammate {
     position: relative;
     padding-bottom: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .teammate-pic {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    box-shadow: none;
+    transition: linear .2s;
+}
+
+.teammate-pic:hover {
+    box-shadow: 0 0 15px #00000036;
+    transition: linear .2s;
 }
 
 .teammate img {
