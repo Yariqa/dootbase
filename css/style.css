@@ -87,7 +87,7 @@ h6 {
     margin-left: 15px;
 }
 
-.nav-item.active .nav-link,
+.nav-item a.active,
 .nav-link:hover {
     color: #910005;
 }
@@ -99,10 +99,12 @@ h6 {
     background-color: #B11016;
     overflow: hidden;
 }
-.top-nav .container{
+
+.top-nav .container {
     display: flex;
     overflow: hidden;
 }
+
 .nav-left {
     float: left;
     padding: 15px 0;
@@ -398,7 +400,9 @@ header {
 
 .project-item .overlay .overlay-inner a {}
 
-.project-item img {width: 100%;}
+.project-item img {
+    width: 100%;
+}
 
 .testimonial-sec {
     padding: 90px 0;
