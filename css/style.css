@@ -166,10 +166,6 @@ header {
 .home-banner-sec {
     position: relative;
     padding: 150px 0;
-    background-image: url(../image/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 .banner-content {}
