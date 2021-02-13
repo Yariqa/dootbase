@@ -103,6 +103,7 @@ h6 {
 .top-nav .container {
     display: flex;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .nav-left {
