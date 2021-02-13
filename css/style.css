@@ -99,7 +99,10 @@ h6 {
     background-color: #B11016;
     overflow: hidden;
 }
-
+.top-nav .container{
+    display: flex;
+    overflow: hidden;
+}
 .nav-left {
     float: left;
     padding: 15px 0;
@@ -130,6 +133,7 @@ h6 {
 .nav-right {
     float: right;
     padding: 15px 0;
+    width: 200px;
 }
 
 .nav-right ul {
@@ -394,7 +398,7 @@ header {
 
 .project-item .overlay .overlay-inner a {}
 
-.project-item img {}
+.project-item img {width: 100%;}
 
 .testimonial-sec {
     padding: 90px 0;
