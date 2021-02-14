@@ -58,6 +58,12 @@
 
 <body>
 
+
+    <!-- ************************************************************************ -->
+    <!-- header start from here -->
+    <!-- ************************************************************************ -->
+
+    <!-- top nav bar -->
     <div class="top-nav d-none d-sm-none d-md-block">
         <div class="container">
             <div class="nav-left">
@@ -79,9 +85,11 @@
             </div>
         </div>
     </div>
+    <!-- top nav bar end -->
 
-    <!-- header fixed -->
+    <!-- main header "fixed" -->
     <header uk-sticky>
+        <!-- main navigation header -->
         <div class="container">
             <nav class="navbar navbar-expand-lg px-0">
                 <a class="navbar-brand" href="index.html"><img src="image/dotbes-logo.svg" alt=""></a>
@@ -104,15 +112,24 @@
             </nav>
         </div>
     </header>
-    <!-- header end -->
+    <!-- main header end -->
+
+    <!-- ************************************************************************ -->
+    <!-- header end here -->
+    <!-- ************************************************************************ -->
+
+
+    <!-- ************************************************************************ -->
+    <!-- main content start from here -->
+    <!-- ************************************************************************ -->
 
     <!-- home banner section start from here -->
     <section id="Home">
 
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
             uk-slideshow="animation: fade; min-height: 650; max-height: 700;">
-
             <ul class="uk-slideshow-items">
+                <!--  -->
                 <li class="uk-background-cover" data-src="image/banner.jpg" uk-img>
                     <div class="home-banner-sec">
                         <div class="container">
@@ -124,13 +141,17 @@
                                         </h1>
                                         <p class="wow fadeInUp">Capitalise on low hanging fruit to identify a ballpark
                                             <br>value added activity to beta test. Override the digital divide <br>with
-                                            additional base clickthroughs.</p>                                        <a href="#" class="wow fadeInUp"><span class="txt">Work With Us</span></a>
+                                            additional base clickthroughs.</p> <a href="#" class="wow fadeInUp"><span
+                                                class="txt">Work With Us</span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
+                <!--  -->
+
+                <!--  -->
                 <li class="uk-background-cover" data-src="image/banner.jpg" uk-img>
                     <div class="home-banner-sec">
                         <div class="container">
@@ -141,9 +162,8 @@
                                         <h1 class="wow fadeInUp">Clever <span>Investing</span> Make<br> Your Money Grow
                                         </h1>
                                         <p class="wow fadeInUp">Capitalise on low hanging fruit to identify a ballpark
-                                            <br>value added
-                                            activity to beta test.
-                                            Override the digital divide <br>with additional base clickthroughs.</p>
+                                            <br>value added activity to beta test. Override the digital divide <br>with
+                                            additional base clickthroughs.</p>
                                         <a href="#" class="wow fadeInUp"><span class="txt">Work With Us</span></a>
                                     </div>
                                 </div>
@@ -151,6 +171,9 @@
                         </div>
                     </div>
                 </li>
+                <!--  -->
+
+                <!--  -->
                 <li class="uk-background-cover" data-src="image/banner.jpg" uk-img>
                     <div class="home-banner-sec">
                         <div class="container">
@@ -161,9 +184,8 @@
                                         <h1 class="wow fadeInUp">Clever <span>Investing</span> Make<br> Your Money Grow
                                         </h1>
                                         <p class="wow fadeInUp">Capitalise on low hanging fruit to identify a ballpark
-                                            <br>value added
-                                            activity to beta test.
-                                            Override the digital divide <br>with additional base clickthroughs.</p>
+                                            <br>value added activity to beta test. Override the digital divide <br>with
+                                            additional base clickthroughs.</p>
                                         <a href="#" class="wow fadeInUp"><span class="txt">Work With Us</span></a>
                                     </div>
                                 </div>
@@ -171,6 +193,7 @@
                         </div>
                     </div>
                 </li>
+                <!--  -->
             </ul>
 
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
@@ -186,7 +209,7 @@
     <!-- home banner section end -->
 
     <!-- book appointment-sec -->
-    <section class="appointment-sec">
+    <section id="Appointment" class="appointment-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-12">
@@ -426,34 +449,6 @@
     </section>
     <!-- testimonial section end -->
 
-
-    <!-- <section class="partner-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="..." alt="">
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-
     <!-- contact section start from here -->
     <section id="Contact" class="contact-sec">
         <div class="container">
@@ -599,6 +594,19 @@
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </section>
 
+
+
+
+    <!-- ************************************************************************ -->
+    <!-- main content end here -->
+    <!-- ************************************************************************ -->
+
+
+
+    <!-- ************************************************************************ -->
+    <!-- footer start from here -->
+    <!-- ************************************************************************ -->
+
     <!-- footer section start from here -->
     <footer class="footer-sec">
         <div class="container">
@@ -606,17 +614,23 @@
                 <div class="col-md-3">
                     <div class="footer-element">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="image/dotbes-logo.svg" alt=""></a>
+                            <a href="index.html">
+                                <img src="image/dotbes-logo.svg" alt="">
+                                <!--Footer logo-->
+                            </a>
                         </div>
                         <div class="footer-contact">
                             <h5>CALL US DIRECTLY</h5>
                             <a href="tel:+06589336">+06589336</a>
+                            <!--Contact number-->
                             <a href="mailto:hello@dootbase.com">hello@dootbase.com</a>
+                            <!--Email-->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="footer-element">
+                        <!--Company urls-->
                         <h3>Company</h3>
                         <ul>
                             <li><a href="#">About Us</a></li>
@@ -626,22 +640,25 @@
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Offices</a></li>
                         </ul>
+                        <!--Company urls end-->
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="footer-element">
+                        <!--Quick Links-->
                         <h3>Quick Links</h3>
                         <ul>
                             <li><a href="#">FAQS</a></li>
                             <li><a href="#">Support</a></li>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="#">Community</a></li>
-
                         </ul>
+                        <!--Quick Links end-->
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="footer-element">
+                        <!-- newsletter area -->
                         <h3>Our Newsletter</h3>
                         <p>Subscribe to our newsletter and we will inform you about latest updates and offers</p>
                         <form action="#">
@@ -660,9 +677,10 @@
                     <div class="col-md-6 text-center text-md-left pb-2 pb-md-0">
                         <p>&copy;<script>
                                 document.write(new Date().getFullYear())
-                            </script> <a href="index.html"><strong>DootBase</strong></a></p>
+                            </script> <a href="index.html"><strong>DootBase</strong></a></p> <!--Copyright-->
                     </div>
                     <div class="col-md-6">
+                        <!-- social icons -->
                         <ul class="text-center text-md-right">
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -670,12 +688,18 @@
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="#"><i class="fas fa-rss"></i></a></li>
                         </ul>
+                        <!-- social icons end -->
                     </div>
                 </div>
             </div>
 
         </div>
     </footer>
+
+
+    <!-- ************************************************************************ -->
+    <!-- footer end here -->
+    <!-- ************************************************************************ -->
 
 
 
