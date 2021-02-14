@@ -845,3 +845,8 @@ header {
 .navbar-toggler i {
     color: #B01016;
 }
+
+#Home .uk-slideshow-items .uk-background-cover {
+    background-repeat: no-repeat;
+    background-position: center left;
+}
